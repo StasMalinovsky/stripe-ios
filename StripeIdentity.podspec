@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 
   # Do not update s.version directly.
   # Instead, update the VERSION file and run ./ci_scripts/update_version.sh
-  s.version                        = '22.8.4.1'
+  s.version                        = '22.8.4'
 
   s.summary                        = 'Securely capture ID documents and selfies on iOS for use with Stripe\'s Identity API to confirm the identity of global users.'
   s.license                        = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage                       = 'https://stripe.com/identity'
   s.authors                        = { 'Stripe' => 'support+github@stripe.com' }
-  s.source                         = { :git => 'https://github.com/StasMalinovsky/stripe-ios.git', :tag => "#{s.version}" }
+  s.source                         = { :git => 'https://github.com/stripe/stripe-ios.git', :tag => "#{s.version}" }
   s.frameworks                     = 'Foundation', 'WebKit', 'UIKit'
   s.requires_arc                   = true
   s.platform                       = :ios
