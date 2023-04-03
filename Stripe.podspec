@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 
   # Do not update s.version directly.
   # Instead, update the VERSION file and run ./ci_scripts/update_version.sh
-  s.version                        = '22.8.4'
+  s.version                        = '22.8.4.1'
 
   s.summary                        = 'Accept online payments using Stripe.'
   s.license                        = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage                       = 'https://stripe.com/docs/mobile/ios'
   s.authors                        = { 'Stripe' => 'support+github@stripe.com' }
-  s.source                         = { :git => 'https://github.com/stripe/stripe-ios.git', :tag => "#{s.version}" }
+  s.source                         = { :git => 'https://github.com/StasMalinovsky/stripe-ios.git', :tag => "#{s.version}" }
   s.frameworks                     = 'Foundation', 'Security', 'WebKit', 'PassKit', 'Contacts', 'CoreLocation', 'UIKit'
   s.requires_arc                   = true
   s.platform                       = :ios
