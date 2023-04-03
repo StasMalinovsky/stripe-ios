@@ -59,7 +59,7 @@ import Foundation
 
     // MARK: - Testing
     static var languageOverride: String?
-    static func overrideLanguage(to string: String?) {
+    public static func overrideLanguage(to string: String?) {
         STPLocalizationUtils.languageOverride = string
     }
     static func testing_localizedStripeString(forKey key: String, bundleLocator: BundleLocatorProtocol.Type) -> String {
