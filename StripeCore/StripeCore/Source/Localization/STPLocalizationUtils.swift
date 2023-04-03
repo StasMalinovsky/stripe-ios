@@ -63,6 +63,7 @@ import Foundation
         STPLocalizationUtils.languageOverride = string
     }
     static func testing_localizedStripeString(forKey key: String, bundleLocator: BundleLocatorProtocol.Type) -> String {
+        print("test please")
         var bundle = bundleLocator.resourcesBundle
 
         if let languageOverride = languageOverride {
